@@ -1,1 +1,1 @@
-# Structure-Mining
+# Mining-Structural-Information
