@@ -1,25 +1,25 @@
 nID,name,color
-1,Hydrocarbons,darkgray
-2,Allenes,gray
-3,Acetylides,lightgray
-4,Benzenoids,magenta4
-5,"Lignans, neolignans and related compounds",burlywood3
-6,Phenylpropanoids and polyketides,gold
-7,Lipids and lipid-like molecules,yellow
-8,Organic oxygen compounds,red
-9,Organic acids and derivatives,darkred
-10,Organic nitrogen compounds,cyan
-11,Alkaloids and derivatives,blue
-12,"Nucleosides, nucleotides, and analogues",blue4
-13,Hydrocarbon derivatives,seagreen4
-14,Organoheterocyclic compounds,darkolivegreen4
-15,Organophosphorus compounds,hotpink3
-16,Organosulfur compounds,cornflowerblue
-17,Organohalogen compounds,green
-18,Organometallic compounds,thistle2
-19,"Organic 1,3-dipolar compounds",grey25
-20,Mixed metal/non-metal compounds,grey20
-21,Miscellaneous inorganic compounds,grey15
-22,Organic salts,grey10
-23,Homogeneous non-metal compounds,grey5
-24,Carbides,black
+1,01a_Hydrocarbons,darkgray
+2,02a_Allenes,gray
+3,03a_Acetylides,lightgray
+4,04a_Benzenoids,magenta4
+5,"05a_Lignans, neolignans and related compounds",burlywood3
+6,06a_Phenylpropanoids and polyketides,gold
+7,07a_Lipids and lipid-like molecules,yellow
+8,08a_Organic oxygen compounds,red
+9,09a_Organic acids and derivatives,darkred
+10,10a_Organic nitrogen compounds,cyan
+11,11a_Alkaloids and derivatives,blue
+12,"12a_Nucleosides, nucleotides, and analogues",blue4
+13,13a_Hydrocarbon derivatives,seagreen4
+14,14a_Organoheterocyclic compounds,darkolivegreen4
+15,15a_Organophosphorus compounds,hotpink3
+16,16a_Organosulfur compounds,cornflowerblue
+17,17a_Organohalogen compounds,green
+18,18a_Organometallic compounds,thistle2
+19,"19a_Organic 1,3-dipolar compounds",grey25
+20,20a_Mixed metal/non-metal compounds,grey20
+21,21a_Miscellaneous inorganic compounds,grey15
+22,22a_Organic salts,grey10
+23,23a_Homogeneous non-metal compounds,grey5
+24,24a_Carbides,black
