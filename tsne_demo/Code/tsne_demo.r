@@ -1,7 +1,7 @@
 #####Input your directory#####
 #####Input your directory#####
 #####Input your directory#####
-inputdir <- "C:/Users/yasuyuki/Desktop/tsne_demo/Input"
+inputdir <- "C:/.../Code"
 codedir <- "C:/.../Code"
 #####Input your directory#####
 #####Input your directory#####
