@@ -1,7 +1,7 @@
 #####Input your directory#####
 #####Input your directory#####
 #####Input your directory#####
-inputdir <- "C:/.../Input"
+inputdir <- "C:/Users/yasuyuki/Desktop/tsne_demo/Input"
 codedir <- "C:/.../Code"
 #####Input your directory#####
 #####Input your directory#####
@@ -13,7 +13,7 @@ library(ggplot2)
 library(tsne)
 
 #Input proportion of data for t-sne demo; 0.01 - 1 (all data) 
-demo.data.proportion <- 0.1
+demo.data.proportion <- 0.01
 
 
 #color palette 
@@ -32,7 +32,7 @@ PubChem_Mw_dataset.demo <- PubChem_Mw_dataset[PubChem_Mw_dataset.id.sample,]
 
 #t-sne calculation
 PubChem_Mw_dataset.demo.tsne <- tsne( PubChem_Mw_dataset.demo[,4:ncol(PubChem_Mw_dataset.demo)],max_iter=1000, k=2, initial_dims=30, perplexity=30 )
-PubChem_Mw_dataset.demo.cord <- PubChem_Mw_dataset.demo.tsne %>% as.data.frame()
+PubChem_Mw_dataset.demo.cord <- as.data.frame(PubChem_Mw_dataset.demo.tsne)
 
 #palette setting
 exist.superclass.num <- match( unique(PubChem_Mw_dataset.demo$Superclass), color.list$name  )
@@ -42,3 +42,4 @@ getPalette <- as.vector( color.list$color[sort(exist.superclass.num)] )
 windows()
 ggplot( PubChem_Mw_dataset.demo.cord, mapping = aes(V1,V2,color = PubChem_Mw_dataset.demo$Superclass)) + geom_point() + 
   scale_color_manual(values=getPalette[1:length(unique(PubChem_Mw_dataset.demo$Superclass))],name="Superclass" )
+
