@@ -13,7 +13,7 @@ library(ggplot2)
 library(tsne)
 
 #Input proportion of data for t-sne demo; 0.01 - 1 (all data) 
-demo.data.proportion <- 0.01
+demo.data.proportion <- 0.1
 
 
 #color palette 
