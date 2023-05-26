@@ -3,7 +3,6 @@
 #####Input your directory#####
 inputdir <- "C:/.../Input"
 codedir <- "C:/.../Code"
-outputdir <- "C:/.../Output"
 #####Input your directory#####
 #####Input your directory#####
 #####Input your directory#####
